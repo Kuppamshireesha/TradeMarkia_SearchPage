@@ -1,0 +1,93 @@
+.footer {
+    font-size: 16px;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .brandInfo {
+    flex: 2;
+  }
+  
+  .footerBottom {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  .socialMediaSection {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .socialIcon:hover {
+    background-color: #1E40AF;
+    color: white;
+  }
+  
+  .list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .listItem {
+    margin-bottom: 8px;
+  }
+  
+.link {
+    text-decoration: none;
+    color: #1E40AF;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .contactSection p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #6B7280;
+  }
+  
+  .contactSection p svg {
+    margin-right: 8px;
+  }
+  

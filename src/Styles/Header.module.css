@@ -1,0 +1,187 @@
+.header {
+  display: flex;
+  flex-direction: column; /* Make the header vertical */
+  padding: 20px;
+  background-color: #F9FBFE;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between header top and nav */
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #1E40AF;
+  margin-right: 16px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 16px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #D1D5DB;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  flex: 1;
+  max-width: 800px;
+  margin-right: 10px;
+}
+
+.searchInput {
+  border: none;
+  color: black;
+  outline: none;
+  padding: 10px;
+  border-radius: 14px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.searchIcon, .cameraIcon {
+  font-size: 26px;
+  color: black;
+}
+
+.searchIcon {
+  margin-left: 12px;
+}
+
+.cameraIcon {
+  margin-right: 12px;
+}
+
+.searchButton, .applyButton {
+  font-size: 20px;
+  padding: 15px 21px; /* Adjusted padding */
+  margin-left: 8px; /* Adjusted margin */
+  border-radius: 14px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.searchButton {
+  background-color: #4380EC;
+}
+
+.applyButton {
+  background-color: #F97316;
+}
+
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px; /* Gap between nav items */
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+  font-size: 16px;
+  margin: 0 8px; /* Adjusted margin */
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navIcon {
+  margin-right: 6px;
+  font-size: 20px;
+}
+
+.navItem:hover {
+  color: #1D4ED8; /* Blue color on hover */
+}
+
+.activeNav {
+  color: #1D4ED8; /* Blue color for active nav item */
+  background-color: #e0f0ff; /* Light blue background for the active item */
+}
+
+.indicator {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #1D4ED8; /* Blue mark below the active section */
+}
+
+.navContent {
+  margin-top: 16px;
+}
+
+.navSection {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.resultItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.resultItem p {
+  margin: 5px 0;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+.filters p {
+  margin: 5px 0;
+}
+
+.filters ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filters ul li {
+  margin: 5px 0;
+}
+
+.resultsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.resultsTable th, .resultsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.resultsTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.resultsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.resultsTable tr:hover {
+  background-color: #e9e9e9;
+}
+
